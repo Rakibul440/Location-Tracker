@@ -1,0 +1,220 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    flex-direction: column;
+    gap: 30px;
+
+   background-color:aqua ;
+}
+
+/* Navbar */
+
+.navbar{
+    padding: 0 50px;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    border-bottom: 1px solid black ;
+
+    @media (max-width:430px) {
+        justify-content: center;
+        align-items: center;
+    }
+}
+.navbar img{
+    cursor: pointer;
+}
+/* Nav-items */
+.nav-items{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: white;
+}
+/* Heading Section */
+
+.heading{
+    color: azure;
+}
+
+/* Map Section */
+
+#map{
+    width: 80%;
+    height: 80%;
+    border: 1px solid black;
+    border-radius: 5px;
+
+    @media (max-width: 430px) {
+        width: 90%;
+    }
+
+}
+/* Footer Section */
+footer{
+    height: 70px;
+    width: 100%;
+    background-color:aquamarine ;
+
+    display: flex;
+    justify-content: center;
+    align-items:center;
+
+    color: antiquewhite;
+    
+    
+}
+
+/* About */
+
+.about{
+    width: 100%;
+    height: 80%;
+
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    gap: 30px;
+    padding: 0 200px;
+    text-align: center;
+
+    @media (max-width:430px) {
+        padding: 0 50px;
+    }
+
+}
+
+
+
+.about-text{
+
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    gap: 30px;
+    padding: 30px;
+    text-align: center;
+
+    background: rgb(255, 255, 255,0.5);
+
+    border-radius: 5px;
+    border: 1px solid whitesmoke ;
+
+}
+
+.about-text h1{
+    color: #ff014f;
+}
+
+
+
+
+/*-------------- Hero Section ------------- */
+.hero{
+    padding: 0 100px;
+    width: 100%;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+    gap: 30px;
+        
+    @media (max-width:430px) {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+
+    
+}
+
+/* Style Text */
+.identity{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    border-bottom: 1px solid black ;
+
+    @media (max-width:430px) {
+        gap: 30px;
+    }
+
+}
+
+/* name */
+.identity h1 {
+    text-align: center;
+    font-size: 70px;
+
+    @media (max-width:430px) {
+        font-size: 45px;
+    }
+}
+
+.identity h1 span{
+    color: #ff014f;
+}
+
+/* text */
+.identity p{
+    font-weight: 500;
+    color: rgb(40, 40, 40);
+}
+.identity p span{
+    color: #ff014f;
+    
+}
+
+/* Social Media */
+
+.identity .connect{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    align-items: center;
+    gap: 10px;
+}
+
+/* image */
+.image{
+    width: 400px; 
+    border: 1px solid #ff014f; 
+    border-radius: 50%;
+    
+    @media (max-width:430px) {
+        width: 100%;
+    }
+}
