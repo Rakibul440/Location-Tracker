@@ -87,8 +87,12 @@ footer{
     align-items:center;
 
     color: antiquewhite;
+    text-align: center;
+   
     
-    
+}
+footer p {
+    padding: 10px;
 }
 
 /* About */
